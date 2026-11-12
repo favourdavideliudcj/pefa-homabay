@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+
+    background-color: #f8fbff;
+    color: #333;
+}
+header{
+     background-color: #075984;
+     padding: 18px 7%;
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+}
+.nav-bar{
+    justify-content: space-between;
+    display: flex;
+}
+.logo{
+    color: #fff;
+    font-size: 27px;
+}
+.logo span{
+    color: #facc15;
+}
+.nav-link{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    justify-content: right;
+
+}
+.nav-link a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+.nav-link a:hover{
+    color: #facc15;
+
+}
+.hero{
+    min-height: 580px;
+    display: flex;
+    align-items: center;
+    padding: 70px 10%;
+
+    background: linear-gradient(90deg,rgba(3,40,70,85),);
+}
+.hero-content{
+    max-width: 650px;
+
+}
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .about-card{
+    background: #e0f2fe;
+    border-radius: 12px;
+    padding: 30px;
+    }
+/*RIGHTS*/
+.rights{
+    background: #eaf6ff;
+}
+.rights.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.right-card{
+    background: #fff;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .06);
+    transition: .3s ;
+}
